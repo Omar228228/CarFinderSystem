@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\public",
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\server",
+    "\\server\\config",
+    "\\server\\controllers",
+    "\\server\\models",
+    "\\server\\routes"
+  ],
+  "SelectedNode": "\\client\\src\\components\\surveyQuestions.js",
+  "PreviewInSolutionExplorer": false
+}

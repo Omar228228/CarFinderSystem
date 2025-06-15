@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CarFinderSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\removeInteractiveFilter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\removeInteractiveFilter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\Header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\Header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\Filters.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\Filters.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\CarDetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\CarDetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\CarCard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\CarCard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\applySurveyFilters.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\applySurveyFilters.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\applyFilters.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\applyFilters.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\components\\surveyQuestions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\components\\surveyQuestions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarFinderSystem\\client\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "removeInteractiveFilter.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\removeInteractiveFilter.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\removeInteractiveFilter.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\removeInteractiveFilter.js",
+              "RelativeToolTip": "client\\src\\components\\removeInteractiveFilter.js",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAFUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T12:19:27.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Filters.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\Filters.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\Filters.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\Filters.js",
+              "RelativeToolTip": "client\\src\\components\\Filters.js",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwFEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T12:18:18.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarDetails.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\CarDetails.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\CarDetails.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\CarDetails.js",
+              "RelativeToolTip": "client\\src\\components\\CarDetails.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwFUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T12:17:58.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarCard.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\CarCard.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\CarCard.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\CarCard.js",
+              "RelativeToolTip": "client\\src\\components\\CarCard.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T12:17:24.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "applySurveyFilters.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\applySurveyFilters.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\applySurveyFilters.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\applySurveyFilters.js",
+              "RelativeToolTip": "client\\src\\components\\applySurveyFilters.js",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T12:17:02.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Header.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\Header.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\Header.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\Header.js",
+              "RelativeToolTip": "client\\src\\components\\Header.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T06:36:38.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "applyFilters.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\applyFilters.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\applyFilters.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\applyFilters.js",
+              "RelativeToolTip": "client\\src\\components\\applyFilters.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T06:20:01.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "surveyQuestions.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\components\\surveyQuestions.js",
+              "RelativeDocumentMoniker": "client\\src\\components\\surveyQuestions.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\components\\surveyQuestions.js",
+              "RelativeToolTip": "client\\src\\components\\surveyQuestions.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T00:03:12.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\App.css",
+              "RelativeDocumentMoniker": "client\\src\\App.css",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\App.css",
+              "RelativeToolTip": "client\\src\\App.css",
+              "ViewState": "AgIAAJ8BAAAAAAAAAAAAALUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-03T14:17:31.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\CarFinderSystem\\client\\src\\App.js",
+              "RelativeDocumentMoniker": "client\\src\\App.js",
+              "ToolTip": "C:\\CarFinderSystem\\client\\src\\App.js",
+              "RelativeToolTip": "client\\src\\App.js",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAMkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T13:08:53.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

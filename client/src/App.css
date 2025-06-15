@@ -1,0 +1,460 @@
+﻿.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.car-list {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.filters {
+    width: 230px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+    .filters h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .filters div {
+        margin-bottom: 15px;
+    }
+
+    .filters label {
+        display: block;
+        margin: 5px 0;
+    }
+
+    /* Для блоків фільтрації */
+    .filters input[type="number"],
+    .filters input[type="checkbox"] {
+        margin-right: 10px;
+    }
+
+/* Контейнер для автомобілів */
+.cars-container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Карточки автомобілів */
+.car-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.car-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.car-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Використовуємо grid для двох колонок характеристик */
+.car-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Дві колонки */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+    .car-info div {
+        display: flex;
+        flex-direction: column; /* Вирівнюємо елементи по вертикалі всередині кожного блоку */
+    }
+
+.car-card p {
+    margin: 5px 0;
+}
+
+    .car-card p strong {
+        font-weight: bold;
+    }
+
+/* Стилі для чекбоксів */
+.filters h4 {
+    margin-bottom: 10px;
+}
+
+.filters label input {
+    margin-right: 5px;
+}
+
+/* Контейнер для фільтрів і автомобілів (коригування відображення) */
+.car-list-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; /* Вирівнювання по верхньому краю */
+}
+
+.cars-container {
+    flex-grow: 1; /* Займає весь доступний простір */
+}
+
+.active-filters {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.filter-chip {
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+.filter-chip span {
+    margin-right: 10px;
+}
+
+.filter-chip button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+}
+
+.interactive-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.interactive-filter {
+    display: flex;
+    align-items: center;
+    background-color: #e6f0ff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.interactive-filter button {
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-header {
+    background-color: #282c34;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .app-header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+    }
+
+/* Для адаптивності */
+@media (max-width: 768px) {
+    .app-header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+.survey-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.survey-questions-container {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.survey-question {
+    background: white;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+    .survey-question h3 {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+.survey-options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.survey-options button {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: left;
+}
+
+.survey-options button:hover {
+    background-color: #e0e0e0;
+}
+
+.filters button:hover {
+    background-color: #e0e0e0;
+}
+
+.filters label:hover {
+    background-color: #e0e0e0;
+}
+
+.cars-container div:hover {
+    background-color: #e0e0e0;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+/* Стилі для іконки палива */
+.fuel-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fuel-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.car-info p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+/* Адаптація для малих екранів */
+@media (max-width: 768px) {
+    .fuel-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* Стилі для міток */
+.info-label {
+    font-weight: bold;
+    min-width: 100px;
+}
+
+/*Стилі для картки */
+.car-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.car-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Стилі для рядків з іконками */
+.info-row {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    gap: 8px;
+}
+
+.info-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Стилі для всієї картки */
+.car-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+    .car-info > div {
+        display: flex;
+        align-items: center;
+    }
+
+/* Адаптивні стилі */
+@media (max-width: 768px) {
+    .info-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .car-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Стилі для міток */
+.info-label {
+  font-weight: bold;
+  min-width: 100px;
+}
+
+/* Стилі для картки */
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.car-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* Анімація для з'явлення опитування */
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.survey-questions-container {
+    animation: fadeInSlideUp 0.3s ease-out forwards;
+    margin-top: 4px;
+    padding: 8px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
